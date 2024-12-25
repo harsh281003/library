@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Complex Form</h2>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <label for="emaill">Email</label>
+       <input type="email" name="email" id="emaill">
+       <label for="phone">Phone</label>
+       <input type="number" name="phone" id="phone">
+       <label for="date">Date of Birth</label>
+       <input type="date" name="date" id="date">
+       <label>Gender:</label><br>
+            <label for="g1">Male</label>
+            <input type="radio" name="gender" id="g1" value="male" required>
+            <label for="g2">Female</label>
+            <input type="radio" name="gender" id="g2" value="female" required>
+            <label for="g3">Prefer Not to Say</label>
+            <input type="radio" name="gender" id="g3" value="prefer_not_to_say" required>
+            <br><br>
+       <label for="Country">Country:</label>
+       <select>
+        <option value="indian">Indian</option>
+        <option value="nri">NRI</option>
+       </select>
+       
+    </fieldset>
+    <fieldset>
+        <legend>Address</legend>
+        <label for="street">Street</label>
+        <input type="text" name="Street" id="street">
+        <label for="city">City</label>
+        <input type="text" name="city" id="city">
+        <label for="state">State</label>
+        <input type="text" name="state" id="state">
+        <label for="pin">Pin Code</label>
+        <input type="number" name="pincode" id="pin" max="999999" min="100000">
+
+    </fieldset>
+    <fieldset>
+        <legend>Other Information</legend>
+        <label for="comments">Comments</label><br>
+        <textarea name="comments" id="comments" cols="90" rows="10"></textarea><br>
+        <label for="agree">I agree to this terms of service</label>
+        <input type="checkbox" name="agree" id="agree">
+    </fieldset><br><br>
+    <button>Submit</button>
+</body>
+</html>
