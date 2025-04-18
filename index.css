@@ -1,0 +1,48 @@
+#clockContainer{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    height: 80vh;
+    width: 80vh;
+    background-image:url(image.png) ;
+    background-size: 100%;
+    display: flex;
+    position: relative;
+    
+}
+#hour,#mint,#sec,#circle{
+    
+    position: absolute;
+    background-color:darkslategray;
+     border-bottom-left-radius: 16%;
+     border-bottom-right-radius: 16%;
+     transform-origin: 43% 87%;
+}
+#hour{
+height: 25%;
+width: 2.5%;
+
+top: 30%;
+left: 48.7%;
+}#mint{
+    height: 34%;
+    width: 1.5%;
+    top: 23%;
+    left: 49.2%;
+
+    
+}#sec{
+    height: 39%;
+    width: 0.9%;
+    top: 18%;
+    left: 49.5%;
+    background-color: darkred;
+    border-radius: 10%;
+}#circle{
+    background-color:black;
+    height: 4%;
+    width: 4%;
+    border-radius: 50%;
+    top: 50%;
+    left: 48%;
+}
